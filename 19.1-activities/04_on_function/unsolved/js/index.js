@@ -1,8 +1,8 @@
 // .on event listener documentation - https://api.jquery.com/on/#on-events-selector-data-handler
 
 // Step 1: Hide a div
-$(" ").on(" ", function(){
-
+$("#button1").on("click ", function(){
+    $('.hideMe')
 });
 
 // Step 2: Change a color
