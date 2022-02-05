@@ -1,6 +1,6 @@
 .bounceMe {
   /* Add the animation bounceArrow here */
-
+animation: bounceArrow .7s infinite 
 }
 .spinMe {
   /* Add the animation for spin on the line below  */
@@ -29,14 +29,15 @@
 
 
 @keyframes bounceArrow {
-  from {
+  from { 
+    margin-top: 0px;
 
   }
   50% {
-
+    margin-top: 7px;
   }
   to {
-
+    margin-top: 0px;
   }
 }
 
